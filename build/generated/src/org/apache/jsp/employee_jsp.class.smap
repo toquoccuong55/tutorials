@@ -1,0 +1,20 @@
+SMAP
+employee_jsp.java
+JSP
+*S JSP
+*F
++ 0 employee.jsp
+employee.jsp
++ 1 header.jsp
+header.jsp
++ 2 footer.jsp
+footer.jsp
+*L
+5,13:51
+5#1,35:64
+17#0,9:98
+26:107,3
+27,21:110
+5#2,32:131
+47#0,4:162
+*E
