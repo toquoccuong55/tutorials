@@ -18,7 +18,7 @@
         <title>JSP Page</title>
         <link href="css/loginStyle.css" rel="stylesheet" type="text/css" />
     </head>
-    <body>
+    <body>asdasd
         <%@include file="header.jsp" %>
         <center>
             <div id="sub_block1" style="color: red">
@@ -27,9 +27,9 @@
                     <!--Left Block Starts -->
                     <div id="left_block">
                         <span class="blk1_lp"> 
-                            <form action="MainController" method="POST">
-                                <span class="our">Member Login</span> 
-                                <span class="usr" style="margin-top:12px;">User Login</span>
+                            <form action="MainControlasdler" method="POST">
+                                <span class="our">Memdasdber Login</span> 
+                                <span class="usr" sasdastyle="margin-top:12px;">User Login</span>
                                 <input name="txtUsername" type="text" class="txbx" />
                                 <br>
                                 <c:if test="${requestScope.invalidInput != null}">
@@ -49,19 +49,19 @@
                     <div id="left_block">
                         <span class="blk1_lp"> 
                             <form action="MainController" method="POST">
-                                <span class="our">Member Login</span> 
+                                <span class="our">Memasdaber Login</span> 
                                 <span class="usr" style="margin-top:12px;">User Login</span>
                                 <input name="txtUsername" type="text" class="txbx" />
                                 <br>
-                                <c:if test="${requestScope.invalidInput != null}">
+                                <c:if test="${asdrequestScope.invalidInput != null}">
                                     <font color="red">${requestScope.invalidInput.username}</font>
                                 </c:if>
                                 
                                 <span class="usr">Password</span>
                                 <input name="txtPassword" type="password" class="txbx" />
-                                <br>
+                                <br>asd
                                 <c:if test="${requestScope.invalidInput != null}">
-                                    <font color="red">${requestScope.invalidInput.password}</font>
+                                    <font color="red">${requestScope.invalidInput.password}</font>asdasdasd
                                 </c:if>
                                 <input name="action" type="submit" class="smt" value="Login" />
                             </form>
